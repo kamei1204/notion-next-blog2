@@ -11,7 +11,7 @@ const ArticleMeta = () => {
                 alt=""
                 objectFit="cover"
                 width={640}
-                height={360}
+                height={370}
                 quality={50}
             />
     
