@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { FC } from "react";
 import { CardProps } from "../types/type";
- 
+
 const Card: FC<CardProps> = ({ page }) => {
     return (
-        <Link href={`/`}>
+        <Link href={`/articles/${page.slug}`}>
         <a className="flex justify-center ">
             <div className="max-w-sm rounded overflow-hidden shadow-lg w-full mb-6 mt-7 md:my-0 content-between grid">
             {/* image */}
