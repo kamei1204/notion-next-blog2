@@ -8,6 +8,7 @@
   "dependencies": {
     "@notionhq/client": "^1.0.4",
     "next": "latest",
+    "notion-block-renderer": "^2.2.3",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },

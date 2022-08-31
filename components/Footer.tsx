@@ -4,9 +4,9 @@ import { siteConfig } from '../site.config'
 
 const Footer = () => {
     return (
-        <footer className="text-center bg-gray-900 text-white block">
+        <footer className="text-center text-gray-600 block">
             <div className="container px-6 pt-6 flex flex-col items-center max-w-2xl w-full mx-auto">
-                <div className="flex justify-center mb-6 text-white">
+                <div className="flex justify-center mb-6 text-gray-600">
                     {/* Twitter */}
                     {siteConfig.twitterUrl && (
                         <a href={siteConfig.twitterUrl}>
@@ -75,7 +75,7 @@ const Footer = () => {
                 {/* copyright */}
                 <div className="text-center p-4 ">
                     <Link href="/">
-                    <a className="text-whitehite">©{siteConfig.title}</a>
+                    <a className="text-gray-500">©{siteConfig.title}</a>
                     </Link>
                 </div>
             </div>
