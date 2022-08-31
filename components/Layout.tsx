@@ -4,7 +4,6 @@ import { siteConfig } from '../site.config'
 import { layoutChildren } from '../types/type'
 import Footer from './Footer'
 import Header from './Header'
-import Section from './Section'
 
 const Layout:FC<layoutChildren> = ({ children }) => {
     return (
@@ -16,7 +15,7 @@ const Layout:FC<layoutChildren> = ({ children }) => {
 
             <Header />
             
-            <main className='w-full pb-12 text-center'>
+            <main className='w-full pb-12 '>
                 {children}
             </main>
 

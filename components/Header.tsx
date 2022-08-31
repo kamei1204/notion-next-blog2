@@ -19,8 +19,10 @@ function Header() {
 
                 </div>
                 <div>
-                    <h3 className='text-white bg-green-600 px-4 py-1 rounded-full'>about</h3>
-                    </div>
+                    <Link href="">
+                        <div className='text-white bg-green-600 px-4 py-1 rounded-full'>contact</div>
+                    </Link>
+                </div>
             </div>
 
         </header>
