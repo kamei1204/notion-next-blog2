@@ -5,7 +5,7 @@ import Section from '../components/Section'
 import { indexProps } from '../types/type'
 import { responsePage } from '../utils/notion'
 
-// SSG = ビルドの段階でHTMLが生成される状態になっている = 事前生成 = ビルドが何度も行なわれるのがデメリット　= ビルドを行うと他のページも全てビルドし直すため処理が大変
+// SSG = ビルドの段階でHTMLが生成される状態になっている = 事前生成 = ビルドが何度も行なわれるのがデメリット = ビルドを行うと他のページも全てビルドし直すため処理が大変
 export const getStaticProps:GetStaticProps = async () => {
   const { results } = await responsePage({}); 
   return {
@@ -17,7 +17,6 @@ export const getStaticProps:GetStaticProps = async () => {
 };
 
 const Home: NextPage<indexProps> = ({ pages }) => {
-  console.log(pages);
   return (
     <Layout>
       <Section />

@@ -2,10 +2,11 @@ import type { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import Card from '../../components/Cards'
 import Layout from '../../components/Layout'
 import Section from '../../components/Section'
-import { indexProps, tagProps } from '../../types/type'
+import { tagProps } from '../../types/type'
 import { responsePage } from '../../utils/notion'
 import { params } from '../../types/type'
-import { getMultiSelect, getText } from '../../utils/propaty'
+import { getMultiSelect } from '../../utils/property'
+
 
 export const getStaticPaths:GetStaticPaths = async () => {
     // responsePageに存在しうるpathの一覧を取得する
@@ -66,3 +67,6 @@ const tag: NextPage<tagProps> = ({ pages, tag }) => {
 }
 
 export default tag
+
+
+
