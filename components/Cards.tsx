@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { FC } from "react";
 import { CardProps } from "../types/type";
-import { getCover, getDate, getMultiSelect, getText } from "../utils/propaty";
+import { getCover, getDate, getMultiSelect, getText } from "../utils/property";
 
 const Card: FC<CardProps> = ({ page }) => {
     return (

@@ -1,15 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
-
-interface Posts {
-    
-}
+import BreadCrumb from './BreadCrumb'
 
 function Header() {
     
     return (
-        <header className='p-5 '>
-            <div className='flex justify-between items-center space-x-5 font-bold max-w-7xl'>
+        <header className='p-5 relative'>
+            <BreadCrumb />
+            <div className='flex justify-between items-center space-x-5 font-bold max-w-7xl mt-3'>
                 <div>
                     <Link href="/">
                         <a>

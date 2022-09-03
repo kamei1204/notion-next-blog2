@@ -4,7 +4,7 @@ import ArticleMeta from "../../components/ArticleMeta";
 import Layout from "../../components/Layout";
 import { ArticleProps, params } from "../../types/type";
 import { fetchBlocksPageId, responsePage } from "../../utils/notion";
-import { getText } from "../../utils/propaty";
+import { getText } from "../../utils/property";
 
 export const getStaticPaths:GetStaticPaths = async () => {
     // responsePageに存在しうるpathの一覧を取得する

@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { blockProps } from '../types/type'
-import { getText } from '../utils/propaty'
+import { getText } from '../utils/property'
 
 const Block: FC<blockProps> = ({ block }) => {
     switch (block.type) {
