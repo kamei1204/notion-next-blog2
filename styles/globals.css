@@ -31,7 +31,7 @@ h1 {
     @apply border-l-4 border-solid border-gray-700 px-4 py-2;
     }
     .nbr-block-code {
-    @apply text-sm;
+    @apply text-sm text-center;
     }
     /* Hide only scrollbar */
     .nbr-block-code pre::-webkit-scrollbar {
@@ -60,5 +60,5 @@ h1 {
     }
     /* Add margin-bottom for each block */
     .nbr-blocks > div {
-    @apply mb-4;
+    @apply mb-4 text-center;
     }

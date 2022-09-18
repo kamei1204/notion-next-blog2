@@ -50,9 +50,9 @@ const Article: NextPage<ArticleProps> = ({ page, blocks }) => {
     console.log(blocks);
     return (
         <Layout>
-            <article className="w-[45px] md:w-full">
+            <article className="w-full">
                 {/* meta section */}
-                <div className="my-12 text-center" >
+                <div className="my-12 text-center w-full" >
                     <ArticleMeta page={page}/>
                 </div>
         
