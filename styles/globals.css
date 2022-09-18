@@ -60,5 +60,5 @@ h1 {
     }
     /* Add margin-bottom for each block */
     .nbr-blocks > div {
-    @apply mb-4 text-center;
+    @apply mb-4 text-left;
     }
