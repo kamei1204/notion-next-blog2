@@ -6,7 +6,7 @@ function Header() {
     
     return (
         <header className='p-5 relative'>
-            <BreadCrumb />
+            {/* <BreadCrumb /> */}
             <div className='flex justify-between items-center space-x-5 font-bold max-w-7xl mt-3'>
                 <div>
                     <Link href="/">

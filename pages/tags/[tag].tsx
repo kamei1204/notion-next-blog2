@@ -53,8 +53,8 @@ const tag: NextPage<tagProps> = ({ pages, tag }) => {
     return (
         <Layout>
         <Section />
-        <div className="pt-12">
-            <h1 className="text-5xl mb-8">{`#${tag}`}</h1>
+        <div className="pt-12 mx-2">
+            <h1 className="text-3xl mb-8">{`#${tag}`}</h1>
             <div className="grid md:gap-6 mt-10 md:grid-cols-2 w-full my-12">
             {/* Card */}
             {pages.map((page,index) => (
