@@ -11,14 +11,14 @@ function Header() {
                 <div>
                     <Link href="/">
                         <a>
-                            <h2 className='font-extrabold cursor-pointer text-2xl'>◀▷Sunny-Blog</h2>
+                            <h2 className='font-extrabold cursor-pointer text-2xl'>◀▷Kame-Blog</h2>
                         </a>
                     </Link>
 
                 </div>
                 <div>
-                    <Link href="">
-                        <div className='text-white bg-green-600 px-4 py-1 rounded-full'>contact</div>
+                    <Link href="https://kamei-ryosuke2.vercel.app/">
+                        <div className='text-white bg-green-600 hover:bg-green-400 cursor-pointer px-4 py-1 rounded-full'>contact</div>
                     </Link>
                 </div>
             </div>

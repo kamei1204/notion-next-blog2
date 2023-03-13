@@ -10,7 +10,7 @@ const Card: FC<CardProps> = ({ page }) => {
         <a className="flex justify-center ">
             <div className="max-w-md rounded overflow-hidden shadow-lg w-full mb-6 mt-7 md:my-0 content-between grid">
             {/* image */}
-                <div>
+                <div className="flex justify-center">
                     {" "}
                     {/* Next.jsのImageは特殊な設定が必要になる ドメインの追加が必要*/}
                     <Image
