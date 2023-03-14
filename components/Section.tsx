@@ -14,7 +14,8 @@ const Section = () => {
             <h2 className="text-2xl sm:text-4xl font-serif max-w-xl">
             <span className="underline decoration-black decoration-3 font-serif">SunnyBlog</span> {""} is a place to write, read, and connect
             </h2>
-            <h3>//{text}</h3>
+            <h3>//{text}<Cursor cursorColor="black"/></h3>
+            
         </div>
 
         <h2 className="lg:text-[300px] md:text-[200px] text-[0px] mx-2 sm:mx-20 ">S</h2>
